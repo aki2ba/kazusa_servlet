@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  my-webapp:
+    build: .
+    ports:
+      - "8080:8080"
+    # コンテナ起動後にTomcatが立ち上がり、ホスト側の8080番でアクセスできるようになる
