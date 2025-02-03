@@ -22,3 +22,8 @@ docker compose build --no-cache
 ```
 docker compose up --build
 ```
+
+ブラウザで以下のURLにアクセスする
+```
+http://localhost:8080
+```
