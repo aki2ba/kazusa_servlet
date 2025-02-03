@@ -6,6 +6,15 @@
 docker compose up --build
 ```
 
+## サーバー再起動
+
+```
+docker compose down
+```
+```
+docker compose up --build
+```
+
 ## 様子がおかしいとき
 
 
@@ -23,7 +32,7 @@ docker compose build --no-cache
 docker compose up --build
 ```
 
-ブラウザで以下のURLにアクセスする
+## ブラウザで以下のURLにアクセスする
 ```
 http://localhost:8080
 ```
