@@ -6,6 +6,12 @@
 docker compose up --build
 ```
 
+## サーバーを落とす
+
+```
+docker compose down
+```
+
 ## サーバー再起動
 
 ```
